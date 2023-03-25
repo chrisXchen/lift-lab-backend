@@ -58,7 +58,7 @@ An Example Workout with Embedded Goals:
 ![list](documentation/lift-slug.png)
 
 
-## [Site map](documentation/site-map.HEIC)
+## [Site map](documentation/site-map.png)
 
 
 ## User Stories or Use Cases

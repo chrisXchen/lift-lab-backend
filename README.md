@@ -71,8 +71,6 @@ Home page -> Login/Signup -> Workouts -> Goals
 
 ## User Stories or Use Cases
 
-(__TODO__: write out how your application will be used through [user stories](http://en.wikipedia.org/wiki/User_story#Format) and / or [use cases](https://en.wikipedia.org/wiki/Use_case))
-
 1. As a non-registered user, I can register a new account with the site
 2. As a user, I can log in to the site
 3. As a user, I can create a new workout
@@ -84,18 +82,14 @@ Home page -> Login/Signup -> Workouts -> Goals
 
 ## Research Topics
 
-(__TODO__: the research topics that you're planning on working on along with their point values... and the total points of research topics listed)
-
 * (1 point) Fitness Calculator API - An external API from Rapid API to fetch fitness related data
 * (1 point) Muscle Group Image Generator API - Another external API from Rapid API to fetch muscle group related images
 * (3 points) Unit Testing with Mocha - JavaScript testing framework to write unit tests for the application
 * (3 points) Client Side Form Validation - Using a JavaScript library to perform client side form validation on user inputs.
 
-* (6 points) React - this is a maybe
+* MAYBE - React
 
 ## [Link to Initial Main Project File](app.mjs) 
-
-(__TODO__: create a skeleton Express application with a package.json, app.mjs, views folder, etc. ... and link to your initial app.mjs)
 
 ## Annotations / References Used
 

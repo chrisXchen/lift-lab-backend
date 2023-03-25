@@ -1,10 +1,12 @@
 # Lift Lab
 
+
 ## Overview
 
 Logging your workouts is easy, but visualizing your progress is demoralizing. It's not linear, some days you feel stronger than others, and some you feel weaker. So where does that leave us? With blind consistency being your only motivator, that is... until Lift Lab arrives.
 
 Lift Lab is a fitness tracker app that helps users track their workout progress, set goals, and achieve results. The app will allow users to create an account, log in, and record their workouts. They can view their progress, set goals, and track their progress towards those goals.
+
 
 ## Data Model
 
@@ -43,28 +45,21 @@ An Example Workout with Embedded Goals:
 
 ## Wireframes
 
-(__TODO__: wireframes for all of the pages on your site; they can be as simple as photos of drawings or you can use a tool like Balsamiq, Omnigraffle, etc.)
-
 /lift/create - page for creating a new workout
 
-![list create](documentation/lift-create.png) --- UPLOAD
+![list create](documentation/lift-create.png)
 
 /lift - page for showing all workouts
 
-![list](documentation/lift.png) --- UPLOAD
+![list](documentation/lift.png)
 
 /lift/slug - page for showing specific workout
 
-![list](documentation/lift-slug.png) --- UPLOAD
+![list](documentation/lift-slug.png)
+
 
 ## [Site map](documentation/site-map.HEIC)
 
-(__TODO__: draw out a site map that shows how pages are related to each other)
-
-Here's a [complex example from wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/20/Sitemap_google.jpg), but you can create one without the screenshots, drop shadows, etc. ... just names of pages and where they flow to.
-
-It'll look like this:                            --- UPLOAD
-Home page -> Login/Signup -> Workouts -> Goals
 
 ## User Stories or Use Cases
 

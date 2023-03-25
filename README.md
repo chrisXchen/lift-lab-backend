@@ -57,7 +57,7 @@ An Example Workout with Embedded Goals:
 
 ![list](documentation/lift-slug.png) --- UPLOAD
 
-## Site map
+## [Site map](documentation/site-map.HEIC)
 
 (__TODO__: draw out a site map that shows how pages are related to each other)
 

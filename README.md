@@ -13,8 +13,6 @@ The application will store Users, Workouts, and Goals
 * users can have multiple workouts (via references)
 * each workout can have multiple goals (by embedding)
 
-(__TODO__: sample documents)
-
 An Example User:
 
 ```javascript
@@ -40,9 +38,8 @@ An Example Workout with Embedded Goals:
 ```
 
 
-## [Link to Commented First Draft Schema](db.mjs) 
+## [Link to Commented First Draft Schema](db.mjs)
 
-(__TODO__: create a first draft of your Schemas in db.mjs and link to it)
 
 ## Wireframes
 
@@ -50,15 +47,15 @@ An Example Workout with Embedded Goals:
 
 /lift/create - page for creating a new workout
 
-![list create](documentation/list-create.png) --- UPLOAD
+![list create](documentation/lift-create.png) --- UPLOAD
 
 /lift - page for showing all workouts
 
-![list](documentation/list.png) --- UPLOAD
+![list](documentation/lift.png) --- UPLOAD
 
 /lift/slug - page for showing specific workout
 
-![list](documentation/list-slug.png) --- UPLOAD
+![list](documentation/lift-slug.png) --- UPLOAD
 
 ## Site map
 
@@ -89,7 +86,9 @@ Home page -> Login/Signup -> Workouts -> Goals
 
 * MAYBE - React
 
-## [Link to Initial Main Project File](app.mjs) 
+
+## [Link to Initial Main Project File](app.mjs)
+
 
 ## Annotations / References Used
 
@@ -97,4 +96,3 @@ Home page -> Login/Signup -> Workouts -> Goals
 2. [tutorial on react.js](https://react.dev/learn/tutorial-tic-tac-toe)
 3. [mocha docs](https://mochajs.org/api/mocha.js.html)
 4. [rapid api - external apis](https://rapidapi.com/search/fitness)
-

@@ -2,3 +2,5 @@ node_modules
 *.swo
 *.swp
 lift-lab/backend/.env
+lift-lab/.DS_Store
+.DS_Store

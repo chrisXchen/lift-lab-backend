@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import axios from '../api';
 
 const WorkoutList = () => {
   const [workouts, setWorkouts] = useState([]);
 
   useEffect(() => {
     const fetchWorkouts = async () => {
-      const response = await fetch('http://localhost:5000/api/workouts');
-      const data = await response.json();
-      setWorkouts(data);
+      const response = await axios.get('/api/workouts');
+      setWorkouts(response.data);
     };
 
     fetchWorkouts();

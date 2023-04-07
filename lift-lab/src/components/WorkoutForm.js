@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from '../api';
 
 const WorkoutForm = ({ onSubmit }) => {
   const [workoutName, setWorkoutName] = useState('');
@@ -6,18 +7,13 @@ const WorkoutForm = ({ onSubmit }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('http://localhost:5000/api/workouts', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ name: workoutName }),
-    });
-    const data = await response.json();
-
-    onSubmit(data);
-
-    setWorkoutName('');
+    try {
+      const response = await axios.post('/api/workouts', { name: workoutName }); // Update this line
+      onSubmit(response.data);
+      setWorkoutName('');
+    } catch (error) {
+      console.error('Error creating workout:', error);
+    }
   };
 
   return (

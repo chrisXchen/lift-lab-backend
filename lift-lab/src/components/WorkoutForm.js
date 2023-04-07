@@ -3,9 +3,20 @@ import React, { useState } from 'react';
 const WorkoutForm = ({ onSubmit }) => {
   const [workoutName, setWorkoutName] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    onSubmit(workoutName);
+
+    const response = await fetch('http://localhost:5000/api/workouts', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name: workoutName }),
+    });
+    const data = await response.json();
+
+    onSubmit(data);
+
     setWorkoutName('');
   };
 

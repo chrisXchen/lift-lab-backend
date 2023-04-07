@@ -1,3 +1,4 @@
 node_modules
 *.swo
 *.swp
+lift-lab/backend/.env
